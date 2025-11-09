@@ -21,18 +21,18 @@ const HttpCatSection = () => {
           <Cat className="w-6 h-6 text-primary-foreground" />
         </div>
         <h2 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-          Public API Consumption - HTTP Cat
+          Consumo de API Pública - HTTP Cat
         </h2>
       </div>
       
       <p className="text-muted-foreground mb-6">
-        Enter an HTTP status code to see the corresponding cat image
+        Ingresa un código de estado HTTP para ver la imagen de gato correspondiente
       </p>
 
       <div className="flex gap-3 mb-6">
         <Input
           type="text"
-          placeholder="Enter HTTP code (e.g., 200, 404, 500)"
+          placeholder="Ingresa código HTTP (ej., 200, 404, 500)"
           value={httpCode}
           onChange={(e) => setHttpCode(e.target.value)}
           className="flex-1 border-2 focus-visible:ring-primary"
@@ -42,7 +42,7 @@ const HttpCatSection = () => {
           onClick={handleShowCat}
           className="bg-gradient-primary hover:opacity-90 transition-opacity"
         >
-          Show Cat
+          Mostrar Gato
         </Button>
       </div>
 
@@ -58,7 +58,7 @@ const HttpCatSection = () => {
           <div className="text-center p-8">
             <Cat className="w-16 h-16 mx-auto mb-4 text-muted-foreground opacity-50" />
             <p className="text-muted-foreground">
-              Cat image will appear here
+              La imagen del gato aparecerá aquí
             </p>
           </div>
         )}

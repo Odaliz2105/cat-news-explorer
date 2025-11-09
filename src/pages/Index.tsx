@@ -7,10 +7,10 @@ const Index = () => {
       <div className="max-w-6xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-            API Consumption Demo
+            Demostración de Consumo de API
           </h1>
           <p className="text-xl text-muted-foreground">
-            Explore public and private API integrations
+            Explora integraciones de API públicas y privadas
           </p>
         </header>
 
@@ -20,7 +20,7 @@ const Index = () => {
         </div>
 
         <footer className="text-center mt-12 text-muted-foreground text-sm">
-          <p>Built with React, TypeScript, and Tailwind CSS</p>
+          <p>Construido con React, TypeScript y Tailwind CSS</p>
         </footer>
       </div>
     </div>
